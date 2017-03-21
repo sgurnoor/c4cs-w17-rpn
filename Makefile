@@ -1,4 +1,4 @@
 test:
-	python3 -m unittest
+	coverage run --python3 -m unittest
 
 .PHONY: test
